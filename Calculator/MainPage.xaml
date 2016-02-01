@@ -13,5 +13,16 @@
             <TextBlock x:Name="firstNumberTextBlock" Margin="0,6,12,0">Zahl 1</TextBlock>
             <TextBox x:Name="firstNumberTextBox" RelativePanel.RightOf="firstNumberTextBlock"></TextBox>
         </RelativePanel>
+        <TextBlock  HorizontalAlignment="Left" Height="40" Margin="210,175,-431,-215" TextWrapping="Wrap" Text="Weather App" VerticalAlignment="Top" Width="221" FontSize="30"/>
+        <TextBox x:Name="city" HorizontalAlignment="Left" Height="32" TextWrapping="Wrap" Text="Enter City" VerticalAlignment="Top" Width="169" RenderTransformOrigin="3.38,7.812" Margin="210,220,-308,-220"/>
+        <TextBox x:Name="country" HorizontalAlignment="Left" Height="32" TextWrapping="Wrap" Text="Enter Country" VerticalAlignment="Top" Width="169" RenderTransformOrigin="3.38,7.812" Margin="210,257,-308,-257"/>
+        <Button x:Name="button" Content="Submit" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="64.6666641235352" Margin="210,294,-210.333,-294" Click="button_Click"/>
+        <TextBlock x:Name="result1" HorizontalAlignment="Left" Height="32" TextWrapping="Wrap" Text="Result 1" VerticalAlignment="Top" Width="92" Margin="455,204,-485.333,-216"/>
+        <TextBlock x:Name="result2" HorizontalAlignment="Left" Height="32" TextWrapping="Wrap" Text="Result 2" VerticalAlignment="Top" Width="92" Margin="455,252,-485.333,-264"/>
+        <TextBlock x:Name="result3" HorizontalAlignment="Left" Height="32" TextWrapping="Wrap" Text="Result 3" VerticalAlignment="Top" Width="92" Margin="455,289,-485.333,-301"/>
+
     </RelativePanel>
+
+
+
 </Page>
